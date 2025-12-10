@@ -31,7 +31,7 @@ function App() {
       setCountries(data);
       setFilteredCountries(data);
     } catch (err) {
-      setError('Failed to load countries. Please try again.');
+      setError('Search by the Name to get the info');
       console.error(err);
     } finally {
       setLoading(false);
